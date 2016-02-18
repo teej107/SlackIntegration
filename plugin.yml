@@ -1,0 +1,19 @@
+name: SlackIntegration
+main: com.teej107.slack.Slack
+version: 1.1
+
+commands:
+  slack:
+    default: op
+    permission: slack.use
+    usage: |
+      /slack url [url]
+      /slack port [port]
+      /slack token [token]
+      /slack add <channel>
+      /slack remove <channel>
+      /slack channels
+      /slack reload
+      /slack format [format]
+      /slack deaths [true|false]
+      /slack achievements [true|false]
